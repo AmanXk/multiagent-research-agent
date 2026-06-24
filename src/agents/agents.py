@@ -14,7 +14,8 @@ load_dotenv()
 # Model Initialization
 llm = ChatGroq(
     model="qwen/qwen3-32b",
-    temperature=0
+    temperature=0,
+    api_key=os.getenv("GROQ_API_KEY")
 )
 
 # 1st Agent : Search Agent
