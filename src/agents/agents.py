@@ -5,6 +5,7 @@ from langchain_core.output_parsers import StrOutputParser
 from src.tools.tools import web_search, scrape_url
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
+import streamlit as st
 
 import os
 
@@ -15,7 +16,7 @@ load_dotenv()
 llm = ChatGroq(
     model="qwen/qwen3-32b",
     temperature=0,
-    api_key=os.getenv("GROQ_API_KEY")
+    api_key=st.secrets["GROQ_API_KEY"]
 )
 
 # 1st Agent : Search Agent
