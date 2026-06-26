@@ -15,7 +15,7 @@ trafilatura
 requests>=2.31.0
 lxml>=5.0.0
 
-# Environment variables
+# Environment variable
 python-dotenv>=1.0.0
 
 # Logging / debugging (optional but recommended)
