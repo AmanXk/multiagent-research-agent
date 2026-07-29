@@ -68,4 +68,5 @@ def run_research_pipeline(topic : str) -> dict:
 
     print("\n critic report \n", state['feedback'])
 
-    return state
+    return 
+
