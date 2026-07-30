@@ -227,5 +227,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📧 Support
 
 For support, open an issue on GitHub.
-!
-**Happy Researching!🚀**
+
+**Happy Researching!**
